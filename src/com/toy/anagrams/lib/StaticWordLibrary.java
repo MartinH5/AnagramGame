@@ -43,7 +43,9 @@ final class StaticWordLibrary extends WordLibrary {
     "Mouse",
     "Flower",
     "Door",
-    "Bomb"
+    "Bomb",
+    "Horse",
+    "Shark"
         
         
     };
@@ -55,7 +57,9 @@ final class StaticWordLibrary extends WordLibrary {
     "Soume",
     "Wofrle",
     "Rodo",
-    "Bmob"
+    "Bmob",
+    "Rehos",
+    "Skarh"
             
     };
     
