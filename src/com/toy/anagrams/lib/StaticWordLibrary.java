@@ -38,29 +38,35 @@ final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
 
-    "Cow",
-    "Dog",
-    "Mouse",
-    "Flower",
-    "Door",
-    "Bomb",
-    "Horse",
-    "Shark"
-        
+    "Ko",
+    "Hund",
+    "Kat",
+    "Fugl",
+    "Bil",
+    "Bille",
+    "Snegl",
+    "Billede",
+    "Bord",
+    "Dør"
+   
         
     };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         
-    "CWO",
-    "GDO",
-    "Soume",
-    "Wofrle",
-    "Rodo",
-    "Bmob",
-    "Rehos",
-    "Skarh"
-            
+    "Ok",
+    "Dhun",
+    "Tak",
+    "Lufg",
+    "Ibl",
+    "Lible",
+    "Lesgn",
+    "Lilbeed",
+    "Ordb",
+    "Rød"
+   
+
+        
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
