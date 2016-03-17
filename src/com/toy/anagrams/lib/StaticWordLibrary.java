@@ -38,32 +38,32 @@ final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
 
-    "Ko",
-    "Hund",
-    "Kat",
-    "Fugl",
-    "Bil",
-    "Bille",
-    "Snegl",
-    "Billede",
-    "Bord",
-    "Dør"
+    "ko",
+    "hund",
+    "kat",
+    "fugl",
+    "bil",
+    "bille",
+    "snegl",
+    "billede",
+    "bord",
+    "dør"
    
         
     };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         
-    "Ok",
-    "Dhun",
-    "Tak",
-    "Lufg",
-    "Ibl",
-    "Lible",
-    "Lesgn",
-    "Lilbeed",
-    "Ordb",
-    "Rød"
+    "ok",
+    "dhun",
+    "tak",
+    "lufg",
+    "ibl",
+    "lible",
+    "lesgn",
+    "lilbeed",
+    "ordb",
+    "rød"
    
 
         

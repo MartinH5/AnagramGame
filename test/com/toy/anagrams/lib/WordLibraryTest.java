@@ -46,6 +46,7 @@ public class WordLibraryTest extends TestCase {
 
     protected void setUp() throws Exception {
         wordLibrary = WordLibrary.getDefault();
+        
     }
     
     
@@ -71,11 +72,13 @@ public class WordLibraryTest extends TestCase {
      * @return true if the scrambledWord is correct anagram of clearWord
      */
     private boolean isAnagram(String clearWord, String scrambledWord) {
-        char[] clearArray = clearWord.toCharArray();
+        char[] ordArray = clearWord.toCharArray();
         char[] scrambledArray = scrambledWord.toCharArray();
-        Arrays.sort(clearArray);
+        Arrays.sort(ordArray);
         Arrays.sort(scrambledArray);
-        return Arrays.equals(clearArray, scrambledArray);
+        System.out.println(Arrays.toString(ordArray));
+        System.out.println(Arrays.toString(scrambledArray));
+        return Arrays.equals(ordArray, scrambledArray);
     }
 
 }
